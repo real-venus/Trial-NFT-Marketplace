@@ -50,9 +50,44 @@ Trial NFT-Marketplace
 
 - **Data Indexing(Bonus):** Integrated `TheGraph` to efficiently index and query blockchain data, enhancing the performance and scalability of the platform.
 
-## About The Project 
+## Video
 
 - ![Demo](https://github.com/real-venus/Trial-NFT-Marketplace/blob/main/public/video1.mp4)
  ### Implement transaction logging using The Graph (for Ethereum)
 - ![Demo](https://github.com/real-venus/Trial-NFT-Marketplace/blob/main/public/video2.mp4)
+
+
+### Requirements
+
+To run the application you'll need:
+* Clone the repository:
+  * ```$ git clone https://github.com/real-venus/Trial-NFT-Marketplace.git ```
+
+
+Now go to project folder and run:
+
+
+```bash
+$ cd Trial-NFT-Marketplace
+
+# install the dependencies
+$ cd contract
+$ npm install 
+
+# deploy de contracts on the blockchain
+$ npx hardhat ignition deploy ./ignition/modules/02-deploy-basic-nft.js --network sepolia
+$ npx hardhat ignition deploy ./ignition/modules/02-deploy-nft-marketplace.js --network sepolia
+
+# run the client
+$ cd client
+$ npm install
+$ npm run dev
+
+# run the graph
+$ cd graph
+$ yarn 
+$ yarn codegen
+$ yarn build
+$ yarn deploy
+```
 
