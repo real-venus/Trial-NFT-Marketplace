@@ -1,1 +1,1 @@
-# Trial-NFT-Marketplace
+Trial NFT-Marketplace
