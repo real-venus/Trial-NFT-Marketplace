@@ -52,7 +52,7 @@ Trial NFT-Marketplace
 
 ## About The Project 
 
-- ![Demo](https://github.com/real-venus/Trial-NFT-Marketplace/blob/main/public/video2.mp4)
+- ![Demo](https://github.com/real-venus/Trial-NFT-Marketplace/blob/main/public/video1.mp4)
  ### Implement transaction logging using The Graph (for Ethereum)
-- <video src="./public/video2.mp4"></video>
+- ![Demo](https://github.com/real-venus/Trial-NFT-Marketplace/blob/main/public/video2.mp4)
 
